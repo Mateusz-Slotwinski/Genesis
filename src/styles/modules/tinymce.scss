@@ -1,0 +1,37 @@
+@import '../variables/index.scss';
+
+.tox {
+    font-family: "Rubik" !important;
+    border: none !important;
+    
+    .tox-edit-area__iframe,
+    .tox-editor-header,
+    .tox-toolbar-overlord,
+    .tox-toolbar__primary {
+        background-color: transparent !important;
+    }
+
+    .tox-toolbar__primary {
+        border: none !important;
+        background: transparent !important;
+        justify-content: center !important;
+        padding-top: 5px !important;
+        max-width: 70vw !important;
+    }
+
+    .tox-toolbar-overlord {
+        display: flex !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    .tox-tbtn {
+        background-color: theme(gray) !important;
+        margin-left: 3.5px !important;
+    }
+
+    .tox-toolbar__group:not(:last-of-type) {
+        border: none !important;
+    }
+
+}
